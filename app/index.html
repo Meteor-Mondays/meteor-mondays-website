@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Meteor Mondays</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-rocket"></i>  <span class="light">meteor</span> Mondays
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#meeting">Meeting</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#next">Next Meeting</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#map">Map</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Meteor Mondays</h1>
+                        <p class="intro-text">Monthly <a href="http://meteor.com/" target="_new">MeteorJS</a> Technologists Meetup.<br>Last Monday of Every Month.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About MeteorJS</h2>
+                <p>Meteor is a complete open source platform for building web and mobile apps in pure JavaScipt.</p>
+                <p>This allows for rapid-prototyping of <em>real-time</em> web and mobile applications written in a single language.</p>
+                <p>Want to build modern web-apps without the hassle?  Check out meteor!</p>
+                <a href="#meeting" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="meeting" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Meeting Meetup</h2>
+                    <p>Meetings are the <span style="color:yellow">last Monday</span> of every month at <span style="color:yellow">6:30pm</span> at the bar 551 West in downtown Lancaster, Pa.</p>
+                    <p>Parking is available across the street at Groff's Funeral Home</p>
+
+                    <a href="http://www.551west.com/" target="_new" class="btn btn-default btn-lg"><i class="fa fa-beer fa-fw"></i> <span class="network-name">551 West</span></a>
+                    <a href="http://www.thegroffs.com/" target="_new" class="btn btn-default btn-lg"><i class="fa fa-car fa-fw"></i> <span class="network-name">Groff's</span></a>
+                </div>
+            </div>
+            <a href="#next" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Next Section -->
+    <section id="next" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Next Meeting</h2>
+                <p>The next meeting will be on <span class="next" style="color:yellow"></span></p>
+                <ul class="countdown">
+                  <li>
+                      <span class="days">00</span>
+                      <p class="days_ref">days</p>
+                  </li>
+                  <li class="seperator">.</li>
+                  <li>
+                      <span class="hours">00</span>
+                      <p class="hours_ref">hours</p>
+                  </li>
+                  <li class="seperator">:</li>
+                  <li>
+                      <span class="minutes">00</span>
+                      <p class="minutes_ref">minutes</p>
+                  </li>
+                  <li class="seperator">:</li>
+                  <li>
+                      <span class="seconds">00</span>
+                      <p class="seconds_ref">seconds</p>
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact the Meteor Monday Group</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:me@robfisher.us">me@robfisher.us</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/MeteorMondays" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                </ul>
+                <a href="#map" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="container content-section text-center">
+      <div id="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2><i style="color:red" class="fa fa-map-marker"></i> 551 West King St. Lancaster, Pa</h2>
+        </div>
+      </div>
+      <div class="container text-center">
+          <p>Copyright &copy; Meteor Mondays 2015</p>
+      </div>
+    </footer>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js(.) scripts/plugins.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <script src="bower_components/moment/moment.js"></script>
+        <script src="bower_components/down-count/jquery.downCount.js"></script>
+        <script src="bower_components/jquery.easing/js/jquery.easing.js"></script>
+        <!-- endbuild -->
+
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/grayscale.js"></script>
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
