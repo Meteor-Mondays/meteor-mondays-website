@@ -8,9 +8,11 @@ $(function() {
 
   var meeting = result.subtract(5.5, 'hours');
   meeting.add(1, 'second');
-  $('.next').text(meeting.format('dddd, MMMM Do YYYY, h:mm:ss a'));
+
+  $('.next').text(meeting.format('dddd, MMMM Do YYYY, h:mm:ss a') + " EST");
 
   $('.countdown').downCount({
-    date: meeting.format()
+    date: meeting.add(4, 'hours').format(),
+    offset: 0
   });
 });
